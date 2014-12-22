@@ -82,4 +82,9 @@ QT_IM_MODULE=cedilla
 
 - Instalar Google Chrome - https://www.google.com.br/chrome/browser/desktop/index.html
 
+- SMPLAYER 14 - http://smplayer.sourceforge.net/en/downloads
+   * `sudo add-apt-repository ppa:rvm/smplayer` 
+   * `sudo apt-get update`
+   * `sudo apt-get install smplayer smplayer-themes smplayer-skins` 
+
 - 
