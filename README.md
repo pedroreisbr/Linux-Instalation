@@ -34,4 +34,28 @@ Linux-Instalation
         * `./glxspheres64`
         * `optirun ./glxspheres64`
             * Comparar taxa de FPS dos dois casos. Se a placa tiver funcionando o segundo comando terá desempenho superior.
-    
+    * Instalar o Bumblebee GUI para gerenciar aplicativos para ser aberto usando nVidia
+        * http://askubuntu.com/questions/452556/how-to-set-up-nvidia-optimus-bumblebee-in-14-04
+        * `sudo apt-get install python-appindicator`
+        * `sudo apt-get install git`
+        * `mkdir git && cd git`
+        * `git clone https://github.com/Bumblebee-Project/bumblebee-ui.git`
+        * `cd bumblebee-ui`
+        * `sudo ./INSTALL`
+        * `cd ../.. && rm -R -f git`
+    * Criar lanćador GlxSpheres64
+        * `cd /usr/share/applications`
+        * `sudo touch glxspheres.desktop`
+        * `sudo gedit glxspheres.desktop`
+```
+[Desktop Entry]
+Name=GlxSpheres64
+Comment=An application test FPS performance Video Driver
+Exec=/opt/VirtualGL/bin/glxspheres64
+Icon=bumblebee
+Type=Application
+Categories=GNOME;GTK;
+```
+        * Open 'Bumblebee - Applications Settings'
+        * Marque GlxSpheres64
+        * Click 'Apply Now'
