@@ -3,7 +3,7 @@ Linux-Instalation
 
 #Processo de configuração da maquina pessoal Linux Ubuntu Gnome 14.04
 
-- Instalar modo normal, com atualizaćão
+- Instalar modo normal, com atualização
 
 - Atualizar sistema
     * `sudo apt-get update && sudo apt-get upgrade`
@@ -43,7 +43,7 @@ Linux-Instalation
         * `cd bumblebee-ui`
         * `sudo ./INSTALL`
         * `cd ../.. && rm -R -f git`
-    * Criar lanćador GlxSpheres64
+    * Criar lançador GlxSpheres64
         * `cd /usr/share/applications`
         * `sudo touch glxspheres.desktop`
         * `sudo gedit glxspheres.desktop`
@@ -61,3 +61,25 @@ Categories=GNOME;GTK;
         * Click 'Apply Now'
         * Click 'Configure Aplications'
         * Altere 'Mode' para 'Performance' e Click 'Close'
+        
+- Configurar Teclado Padrão internacional (não funcionava o ç, ficava ć)
+   * `sudo gedit /etc/enviroment`
+   * Adicione as linhas, salve e reinicie a seção
+```
+GTK_IM_MODULE=cedilla
+QT_IM_MODULE=cedilla
+```
+
+- Reparar AutoComplete do Bash que parou de funcionar corretamente
+   * `sudo apt-get install --reinstall bash-completion`
+   * `cp /etc/skel/.bashrc ~/`
+
+- Instalar Gnome Do (para pesquisas rápidas por aplicativos) e o Docky (para acessorádo de Aplicativos)
+   * `sudo apt-get install gnome-do docky`
+
+- Instalar Fish (Auxiliar do Bash)
+   * `sudo apt-get install fish` 
+
+- Instalar Google Chrome - https://www.google.com.br/chrome/browser/desktop/index.html
+
+- 
