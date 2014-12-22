@@ -26,6 +26,7 @@ Linux-Instalation
         * `sudo apt-get install --reinstall bbswitch-dkms`
         * `sudo /etc/init.d/bumblebeed stop` or `sudo stop bumblebeed`
         * `sudo /etc/init.d/bumblebeed start` or `sudo start bumbleed`
+        * `sudo reboot`
     * Testar placa de video
         * http://sourceforge.net/projects/virtualgl/
         * Baixar e instalar VirtualGL
