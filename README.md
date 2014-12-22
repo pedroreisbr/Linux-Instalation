@@ -59,3 +59,5 @@ Categories=GNOME;GTK;
         * Open 'Bumblebee - Applications Settings'
         * Marque GlxSpheres64
         * Click 'Apply Now'
+        * Click 'Configure Aplications'
+        * Altere 'Mode' para 'Performance' e Click 'Close'
