@@ -87,4 +87,7 @@ QT_IM_MODULE=cedilla
    * `sudo apt-get update`
    * `sudo apt-get install smplayer smplayer-themes smplayer-skins` 
 
+- Instalar Java - https://www.digitalocean.com/community/tutorials/como-instalar-o-java-no-ubuntu-com-apt-get-pt
+   * sudo apt-get install default-jre default-jdk
+
 - 
